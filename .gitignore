@@ -1,0 +1,20 @@
+# Raw downloads (see data/raw/README.md)
+data/raw/*
+!data/raw/README.md
+
+# Intermediate files
+data/interim/
+
+# Large track-level outputs (regenerate with `Rscript run_all.R`)
+data/processed/q1_dataset.csv
+data/processed/q4_dataset.csv
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+
+# Editor and OS files
+.vscode/
+.DS_Store
+Thumbs.db
